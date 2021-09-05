@@ -1,3 +1,7 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 .App {
   text-align: center;
 }
@@ -35,4 +39,160 @@
   to {
     transform: rotate(360deg);
   }
+}
+.home{
+  display: flex ; 
+  justify-content: center ; 
+  align-items: center ;
+  flex-direction : column ;
+  height: 95vh ; 
+  background-color: black;
+  opacity : 0.9 ;
+  color: black ; 
+}
+
+.home h1{
+  font-size : 98pt ; 
+  font-family: 'Bungee Shade', cursive;
+  color: white ;
+}
+.home h2{
+  font-size: 70px ;
+}
+.home h3{
+  color:#707580 ;
+}
+
+.main {
+  min-height: 100vh ;
+  width: 100vw ;
+  background : url("https://i.imgur.com/tbreWPa.png") ;
+}
+.about{
+  height: 95vh ; 
+  background-color: #ff9800 ;
+  opacity : 0.9 ;
+  
+}
+.about p{
+  margin: 12px ; 
+  padding: 5px ;
+  font-weight: 600;
+  font-size: 34px ;
+  letter-spacing: 1px ;
+}
+.about h1 {
+  text-align: center;
+  margin: 10px ; 
+  color: black ; 
+  font-family:'Bungee Shade', cursive;
+  font-size : 76px ; 
+}
+
+.education {
+  background-color: #f44336 ;
+  opacity : 0.9 ;
+  color: #fff ; 
+  min-height: max-content;
+  padding: 20px ;
+
+}
+.education h1 {
+  text-align: center ; 
+  font-family:'Bungee Shade', cursive;
+  font-size: 90pt ; 
+  color: yellow ; 
+}
+.College {
+  width : 100% ;
+  background-image: url("https://i.imgur.com/VLR7WEA.jpg") ;
+  padding: 25px ;
+  display : flex ;
+  flex-direction: column;
+  justify-content: space-evenly ; 
+  align-items: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed ;
+  background-position: center;
+  background-size: cover;
+  border-radius: 12px ;
+  margin: 10px ;
+}
+.College h1{
+  font-size : 30pt ;
+  background: rgb(247, 111, 111) ;
+}
+.College p{
+  font-size : 20pt ; 
+}
+
+.interest {
+  min-height: max-content ;
+  width: 100vw ;
+  background-color: white ; 
+  
+}
+.interest h1{
+  font-family:'Bungee Shade', cursive;
+  text-align: center;
+}
+
+.interest .card {
+  height: 50% ; 
+  width: 35% ; 
+  border-radius: 10px ; 
+  box-shadow: rgb(247, 111, 111) ;
+  display: flex ; 
+  flex-direction: column;
+  margin: 10px ;
+
+}
+.card .img  {
+  height: 70% ; 
+  width: 100% ; 
+  display:flex ; 
+  justify-content: center;
+  align-items: center;
+}
+.card .img img{
+  height: 100% ; 
+  width: 95% ;
+  margin : 10px ;
+  border-radius: 5px ;
+}
+.card .imgCap {
+  text-align : center ; 
+  padding: 3px ;
+}
+.card .imgCap {
+  height: 30% ; 
+  width: 100% ; 
+}
+.content {
+  display : flex ;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer {
+  width : 100vw ; 
+  background : darkblue ;
+  padding : 30px ;
+}
+.footer .head{
+  font-size : 40pt ; 
+  font-family:'Bungee Shade', cursive;
+  display : flex ; 
+  justify-content : center ;
+  align-content : center ;
+  color : white ;
+}
+.footer .footerBody{
+  display: flex ; 
+  align-items: center;
+  justify-content: space-evenly;
+}
+.footerBody a{
+  color: white ; 
+  text-decoration: none ;
 }
